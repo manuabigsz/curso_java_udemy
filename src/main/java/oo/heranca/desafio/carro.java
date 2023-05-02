@@ -12,11 +12,11 @@ public class carro {
     int velAtual;
     int velMaxima;
     
-    carro(int vel){
+    protected carro(int vel){
         velMaxima = vel;
     }
    
-    void acelerar(){
+    public void acelerar(){
         if(velAtual + 5 > velMaxima){
             velAtual = velMaxima;
         }else{
@@ -25,7 +25,7 @@ public class carro {
         
     }
     
-    void frear(){
+    public void frear(){
         if(velAtual >=5){
         velAtual -= 5;}else{
         velAtual=0;

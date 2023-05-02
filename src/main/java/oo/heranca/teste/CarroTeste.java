@@ -2,7 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.desafio.Camaro;
+import oo.heranca.desafio.Fusca;
+import oo.heranca.desafio.carro;
 
 /**
  *

@@ -10,12 +10,12 @@ package oo.heranca.desafio;
  */
 public class Camaro extends carro{
 
-    Camaro(){
+    public Camaro(){
     super(220);
     }
     
     @Override//efeito de validação, está de fato sobreescrevendo um metodo.
-    void acelerar() {
+    public void acelerar() {
        velAtual += 10;
     }
     

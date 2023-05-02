@@ -9,7 +9,7 @@ package oo.heranca;
  * @author manu
  */
 public class Monstro extends Jogador{
-    Monstro(){
+   public  Monstro(){
     super(0,0);
     }
     
