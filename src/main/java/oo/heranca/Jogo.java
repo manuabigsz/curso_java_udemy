@@ -38,12 +38,12 @@ public class Jogo {
         System.out.println(j1.vida);
         System.out.println(j2.vida);
         
-         Heroi h = new Heroi();
+        Heroi h = new Heroi();
         h.x = 10;
         h.y = 11;
         
         
-         Monstro m = new Monstro();
+        Monstro m = new Monstro();
         m.x = 10;
         m.y = 11;
     }
