@@ -40,11 +40,18 @@ public class Jogo {
         
         Heroi h = new Heroi();
         h.x = 10;
-        h.y = 11;
+        h.y = 10;
         
         
         Monstro m = new Monstro();
         m.x = 10;
         m.y = 11;
+        
+         System.out.println("Vida heroi: " + h.vida);
+          System.out.println("Vida monstro: " + m.vida);
+          h.atacar(m);
+          m.atacar(h);
+          System.out.println("Vida heroi: " + h.vida);
+          System.out.println("Vida monstro: " + m.vida);
     }
 }
