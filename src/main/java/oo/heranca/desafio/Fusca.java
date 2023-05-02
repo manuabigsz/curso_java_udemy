@@ -9,5 +9,7 @@ package oo.heranca.desafio;
  * @author 20212PF.CC0010
  */
 public class Fusca extends carro{
-    
+    Fusca(){
+        super(120);
+    }
 }

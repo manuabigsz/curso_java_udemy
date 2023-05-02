@@ -10,9 +10,19 @@ package oo.heranca.desafio;
  */
 public class carro {
     int velAtual;
+    int velMaxima;
+    
+    carro(int vel){
+        velMaxima = vel;
+    }
    
     void acelerar(){
-        velAtual+=5;
+        if(velAtual + 5 > velMaxima){
+            velAtual = velMaxima;
+        }else{
+        velAtual +=5;
+        }
+        
     }
     
     void frear(){

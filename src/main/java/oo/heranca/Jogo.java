@@ -22,14 +22,11 @@ public class Jogo {
         System.out.println("X: " + j1.x);
         System.out.println("Y: " + j1.y);*/
 
-        Jogador j1 = new Jogador();
-        j1.x = 10;
-        j1.y = 10;
+        Jogador j1 = new Jogador(10,10);
+        
 
-        Jogador j2 = new Jogador();
-        j2.x = 10;
-        j2.y = 11;
-
+        Jogador j2 = new Jogador(10,11);
+        
         System.out.println(j1.vida);
         System.out.println(j2.vida);
 
@@ -38,9 +35,8 @@ public class Jogo {
         System.out.println(j1.vida);
         System.out.println(j2.vida);
         
-        Heroi h = new Heroi();
-        h.x = 10;
-        h.y = 10;
+        Heroi h = new Heroi(10,10);
+       
         
         
         Monstro m = new Monstro();
